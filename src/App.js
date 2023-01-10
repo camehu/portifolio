@@ -1,10 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import NavBar from './companents/header/NavBar'
+
 
 function App() {
   return (
     <div className="App">
-     <h2>Bem vindo ao meu Portifolio</h2>
+      <h2>Me chamos Carlos Humberto</h2>
+      <NavBar/>
+      
     </div>
   );
 }
