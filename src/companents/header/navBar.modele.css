@@ -5,9 +5,9 @@ html, body {
 }
 
 body {
-    font-family: "Helvetica Neue",sans-serif;
+    font-family: "Helvetica",sans-serif;
     font-weight: lighter;
-    background-color: black;
+   
 }
 
 header {
@@ -23,7 +23,7 @@ header {
 nav {
     position: fixed;
     width: 100%;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 nav ul {
@@ -45,7 +45,7 @@ nav.black ul {
 
 nav ul li {
     display: inline-block;
-    padding: 16px 40px;;
+    padding: 16px 15px;;
 }
 
 nav ul li a {
