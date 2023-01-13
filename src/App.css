@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+   
+   .d-flex{
+    display: flex;
+    margin-top: 15rem;  
+    justify-content: center;
+    color: #fff;
+    font-size:25px
+
+   }
+  
+  }
+

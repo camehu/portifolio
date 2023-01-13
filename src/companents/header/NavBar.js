@@ -7,16 +7,19 @@ export default function NavBar() {
     <div class="wrapper">
          <header>
             <nav>
-               
+                         
                <div class="menu">
                   <ul>
                      <li><a href="#">Projetos</a></li>
                      <li><a href="#">Sign-in</a></li>
                      
                   </ul>
+                  <div class="d-flex"><span>"O progresso não é Linear"</span></div>
                </div>
             </nav>
+            
          </header>
+        
         </div>
   )
 }
