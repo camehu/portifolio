@@ -1,8 +1,8 @@
-@media screen and (max-width: 480px) {
+@media (max-width: 768px) {
    
    .d-flex{
     display: flex;
-    margin-top: 15rem;  
+    margin-top: 23rem;  
     justify-content: center;
     color: #fff;
     font-size:25px
