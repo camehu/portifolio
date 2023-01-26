@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding:0;
+    width: 100wh;
+    height: 100vh;
+    background: url('../../public/progress.jpg');
+    background-size: cover;
+    background-color: black;
+    background-position:center;
+    opacity: 1
+}
+
+#text-progress{
+    display: flex;    
+    color:#fff;
+    justify-content: flex-end;
+    margin:30px;
+    margin-top: 23rem;
+    font-size:35px;
+    
+}
+
+@media (max-width: 480px){
+    #text-progress{
+    display: flex;    
+    color:#fff;
+    justify-content: flex-end;
+    margin:20px;
+    margin-top: 38rem;
+    font-size:29px;}
+
+}
+
