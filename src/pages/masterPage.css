@@ -29,5 +29,10 @@ body{
     margin-top: 33rem;
     font-size:29px;}
 
+    ul li a{
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
 }
 
