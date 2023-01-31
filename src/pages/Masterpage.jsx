@@ -38,7 +38,7 @@ const Masterpage = () => {
        </div>
         
         <button type="button" class="btn btn-outline-warning" onClick={() => setCount(count + 1)} style={{width:'200px',height:'50px', marginLeft:'190px',marginTop:'2rem',borderRadius:'40px', float:'left'}}>Projetos</button>
-       <button type="button" class="btn btn-outline-info" onClick={() => setCount(count + 1)} style={{width:'200px',height:'50px', marginLeft:'190px',marginTop:'2rem',borderRadius:'40px', float:'left'}}>Contato</button>
+       <button type="button" class="btn btn-outline-warning" onClick={() => setCount(count + 1)} style={{width:'200px',height:'50px', marginLeft:'190px',marginTop:'2rem',borderRadius:'40px', float:'left'}}>Contato</button>
 
        
         </div>
