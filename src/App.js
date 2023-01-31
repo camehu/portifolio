@@ -3,7 +3,7 @@
 //import NavBar from './companents/header/NavBar';
 
 import Masterpage from './pages/Masterpage'
-
+import './App.css'
 
 function App() {
   return (

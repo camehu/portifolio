@@ -9,11 +9,12 @@ body{
     
    }
 
-#imgCircule{
+  
 
-    width:'260';
-     height:"261";
-      boxShadow: '6px 10px 80px 30px yellow';
+@media (max-width:780px){
+    .titile{
+        font-size: 10px;
+        color: black;
 
     }
-  
+}

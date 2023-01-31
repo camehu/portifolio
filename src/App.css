@@ -1,25 +1,9 @@
-.d-flex{
-  display: flex;
-  justify-content: flex-start;
-  color: #fff;
-  font-size:20px;
-  margin:10px;
-  margin-top: 300px;
-}
+@media (max-width:780px){
+  ,titile{
+    font-size: 24px;
+      color: black;
 
-
-@media screen and (max-width: 768px) {
-
-   .d-flex{
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    font-size:20px;
-    margin-top: 5px;
-    //margin-left: 7rem;
-    
-
-   }
-  
   }
+      
 
+  }
