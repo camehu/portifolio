@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    padding:0;
+    width: 100wh;
+    height: 100vh;
+    background-image:url('https://images5.alphacoders.com/369/thumb-1920-369171.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   }
+
+#imgCircule{
+
+    width:'260';
+     height:"261";
+      boxShadow: '6px 10px 80px 30px yellow';
+
+    }
+  
