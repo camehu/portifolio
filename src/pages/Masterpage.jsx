@@ -11,8 +11,8 @@ const Masterpage = () => {
    
    <div className="container">
   <div className="row ">
-    <div className="col">
-      <img className='text-center' src={humberto} alt="" srcset="" width='350px'/>
+    <div className="col text-center">
+      <img src={humberto} alt="" srcset="" width='350px'/>
     </div>
 
     <div className="col text-center mt-4">
