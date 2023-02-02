@@ -15,7 +15,7 @@ const Masterpage = () => {
       <img src={humberto} alt="" srcset="" width='350px'/>
     </div>
 
-    <div className="col text-center mt-4">
+    <div className="col mt-4">
       <h1 className='p-2'>Desenvolvedor Python</h1>
       <p>
           Desenvolvedor Python graduado em Análise e Desenvolvimento de Sistemas pela Universidade Paulista (UNIP).
