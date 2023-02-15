@@ -2,6 +2,9 @@
 //import styles from './Masterpage.module.css';
 import './Masterpage.module.css'
 import humberto from '../components/img/Carlos-humberto.jpg';
+import ModalForm from '../components/ModalForm'
+import Button from '@mui/material/Button';
+
 
 
 const Masterpage = () => {
@@ -25,9 +28,9 @@ const Masterpage = () => {
       <p>Ao longo de minha trajetória adquiri algumas competências como: Boa comunicação, assertividade,
          saber lidar sobre pressão e também a persuasão, além da vontade de aprender novas tecnologias. </p>
 
-      <div className="col text-center mt-4">
-        <button type='button' className="btn btn-outline-warning rounded-pill" > Projetos</button>
-        <button type='button' className="btn btn-outline-warning rounded-pill"> Contato</button>
+      <div className="col text-center" style={{display:'inline-flex', padding:'1em', width:'100%'}}>
+         <Button variant={'contained'} color={'warning'} size={'large'} >Projetos</Button>
+          <ModalForm/>        
     </div>
     </div>
   </div>

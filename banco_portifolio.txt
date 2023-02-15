@@ -1,0 +1,23 @@
+mongoDB
+https://cloud.mongodb.com/v2/6217bcc091df803ca2822261#/clusters
+
+USER
+camehu ou cameú
+
+SENHA_DB
+1of6rvOZCk4jvNcT
+
+
+string de conexão
+mongodb+srv://camehu:<password>@cluster0.ol9viae.mongodb.net/?retryWrites=true&w=majority
+
+++++++++++++++++++++++++++++++++++++require ("dotenv").config();
+//const express = require('express')
+//const path = require('path')
+//const cors  = require('cors');
+//const portDB = process.env.PORT
+
+
+
+// Configuração para receber respostas em JSON
+//App.user(express.json());
