@@ -3,7 +3,6 @@
 import './Masterpage.module.css'
 import humberto from '../components/img/Carlos-humberto.jpg';
 import ModalForm from '../components/ModalForm'
-import Button from '@mui/material/Button';
 
 
 
@@ -19,7 +18,7 @@ const Masterpage = () => {
     </div>
 
     <div className="col mt-4">
-      <h1 className='p-2'>Desenvolvedor Python</h1>
+      <h1 className='p-1 mr-6'>Desenvolvedor Python</h1>
       <p>
           Desenvolvedor Python graduado em Análise e Desenvolvimento de Sistemas pela Universidade Paulista (UNIP).
           Possuo habilidades com os Frameworks Flask, FastAPI, Djando e 
@@ -29,7 +28,7 @@ const Masterpage = () => {
          saber lidar sobre pressão e também a persuasão, além da vontade de aprender novas tecnologias. </p>
 
       <div className="col text-center" style={{display:'inline-flex', padding:'1em', width:'100%'}}>
-         <Button variant={'contained'} color={'warning'} size={'large'} >Projetos</Button>
+        <button type="button" class="btn btn-outline-warning">Projetos</button>
           <ModalForm/>        
     </div>
     </div>
