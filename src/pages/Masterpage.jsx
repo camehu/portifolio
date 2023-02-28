@@ -27,10 +27,14 @@ const Masterpage = () => {
       <p>Ao longo de minha trajetória adquiri algumas competências como: Boa comunicação, assertividade,
          saber lidar sobre pressão e também a persuasão, além da vontade de aprender novas tecnologias. </p>
 
-      <div className="col text-center" style={{display:'inline-flex', padding:'1em', width:'100%'}}>
-        <button type="button" class="btn btn-outline-warning">Projetos</button>
-          <ModalForm/>        
-    </div>
+      <div className="row p-3 d-flex justify-content-center" >
+          <div className='col' >
+            <button type="button" class="btn btn-outline-warning btn-lg">Projetos</button>          
+          </div>
+
+          <div className="col"><ModalForm/></div>
+                   
+     </div>
     </div>
   </div>
   </div>

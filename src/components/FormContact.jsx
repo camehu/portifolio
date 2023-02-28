@@ -1,11 +1,13 @@
 import React from 'react'
-import Button from '@mui/material/Button';
+
 
 const FormContact = () => {
   return (
-    <div>
+    <div style={{padding:'3px'}} >
     <form >
-        <header>CONTATO</header>
+        <div style={{}} >
+       
+        </div>
             <div class="mb-3 mt-3">
                 <label for="nomecompleto" class="form-label">Nome Completo:</label>
                 <input type="text" class="form-control" id="nomecompleto" name="nomecompleto"/>
@@ -22,8 +24,13 @@ const FormContact = () => {
             <label for="comment">Mensagem:</label>
                 <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
             </div>
-            <Button variant={'contained'} color={'warning'} size={'large'} >Enviar</Button>
+            <div><button type="button" class="btn btn-outline-primary">Enviar</button></div>
+            
             </form>
+
+         
+
+            
       
     </div>
   )
