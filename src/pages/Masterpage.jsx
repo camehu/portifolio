@@ -2,7 +2,7 @@
 //import styles from './Masterpage.module.css';
 import './Masterpage.module.css'
 import humberto from '../components/img/Carlos-humberto.jpg';
-import ModalForm from '../components/ModalForm'
+
 
 
 
@@ -27,12 +27,12 @@ const Masterpage = () => {
       <p>Ao longo de minha trajetória adquiri algumas competências como: Boa comunicação, assertividade,
          saber lidar sobre pressão e também a persuasão, além da vontade de aprender novas tecnologias. </p>
 
-      <div className="row p-3 d-flex justify-content-center" >
-          <div className='col' >
+      <div className="row" >
+          <div className='col-12 p-2' style={{marginLeft:'135px'}} >
             <button type="button" class="btn btn-outline-warning btn-lg">Projetos</button>          
           </div>
 
-          <div className="col"><ModalForm/></div>
+          
                    
      </div>
     </div>
