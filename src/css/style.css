@@ -3,22 +3,14 @@
     padding: 0%; }
 
 .principal{
-    background-image: url('../img/banner_inicio.jpg');   
-    background-size: cover;
+    background-image: url('../img/tech/banner_inicio.jpg');   
+    background-size: 100%;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
-.container_inicio{   
-    display: flex;
-    color: antiquewhite;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 .container_header{
-   width: 100vw;
-   height: 50px;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 16px;
    justify-content: space-around;
@@ -26,20 +18,32 @@
 
 }
 
-@media only screen and (max-width:1920px) {
-    .tech_img{
-        margin-top: 63vh;        
+@media only screen and (max-width: 600px) {
+    .principal{
+        background-image: url('../img/tech/banner_mobile.jpg');   
+        background-size:100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
     }
-    
+    .tech_img{
+        margin-top: 26rem;
+    }
+
 }
 
-@media only screen and (min-width:1920px) {
+@media only screen and (max-width:1920px) {
+    .tech_img{
+        margin-top: 65vh;
+    }    
+}
+
+/* @media only screen and (min-width:1920px) {
     .tech_img{
         margin-top: 73vh;
-        flex-wrap: wrap;
     }
     
-}
+} */
 
 
 
