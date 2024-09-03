@@ -6,8 +6,9 @@
     background-image: url('../img/tech/banner_inicio.jpg');   
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    background-attachment: local;    
 }
 
 .container_header{
@@ -15,27 +16,17 @@
    font-size: 16px;
    justify-content: space-around;
    align-items: center;
-
 }
 
-@media only screen and (max-width: 600px) {
-    .principal{
-        background-image: url('../img/tech/banner_mobile.jpg');   
-        background-size:100%;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 100vh;
-    }
-    .tech_img{
-        margin-top: 26rem;
-    }
-
+.tech_img{
+    margin-top: 20%;
 }
 
 @media only screen and (max-width:1920px) {
     .tech_img{
-        margin-top: 65vh;
-    }    
+        margin-top: 30%;
+    }
+   
 }
 
 /* @media only screen and (min-width:1920px) {
