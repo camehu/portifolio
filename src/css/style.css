@@ -23,7 +23,8 @@
 
 @media only screen and (max-width:1080px) { 
     .principal{
-        background-image: url('../img/tech/mobile.banner.jpg');   
+
+        background-image: url('../img/tech/mobile.banner.jpg');   /
         background-repeat: no-repeat;
         background-attachment: local;  
         width:100%;
