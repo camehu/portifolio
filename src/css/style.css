@@ -21,6 +21,37 @@
     margin-top: 37%;
 }
 
+.portif__sobre{
+    width: 100%;
+    height: auto;
+    background-color:rgb(253, 253, 253);
+    margin-top: 5rem;
+    padding: 2.5rem;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portif__foto-sobre{
+    width: 200px;
+    height: 200px;  
+   
+}
+
+@media only screen and (max-width:600px) {
+    .portif__sobre{
+        width: 100%;
+        height: 425px;
+        background-color: rgb(253, 253, 253);
+        margin-top: 5rem;
+        padding: 1.5rem;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(82, 82, 82);
+        justify-content: center;  
+    }
+ 
+ }
+
 @media only screen and (max-width:915px) { 
     .principal{
 
@@ -38,6 +69,8 @@
         width: 40px;
         gap: 0;
     }
+
+   
    
 }
 
